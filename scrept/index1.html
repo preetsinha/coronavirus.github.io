@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Change Background Color</title>
+    <style>
+        body div {
+            background-image: linear-gradient(to right, pink, skyblue );
+            margin: 100px 20px 20px 200px;
+            padding: 100px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            animation: change 5s infinite;
+            width: 50%;
+            height: 50%;
+            font-family: 'Lucida Sans';
+        }
+
+        @keyframes change {
+            0% {
+                background-image: linear-gradient(to right,rgb(30, 240, 128),rgb(207, 123, 117)w);
+            }
+
+            25% {
+                background-image: linear-gradient(to right,rgb(4, 255, 0), rgb(104, 195, 177));
+            }
+
+            50% {
+                background-image: linear-gradient(to right,rgb(220, 186, 65), rgb(137, 170, 231));
+            }
+
+            75% {
+                background-image: linear-gradient(to right,rgb(221, 154, 233), rgb(44, 223, 118));
+            }
+        }
+
+        #name {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h2 id="name">Raman Sinha</h2>
+    </div>
+
+</body>
+
+</html>
